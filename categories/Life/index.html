@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tommy&#39;s Blog || Introduction</title>
+    <title>Tommy&#39;s Blog || Life</title>
     <meta name="author" content="Tommy Chen">
     <meta name="description" content=" ">
     <meta name="keywords" content=" ">
@@ -150,62 +150,68 @@
 
                 <div id="main">
                      
-<link rel="stylesheet" href="/css/post-body.css">
-<div class="article">
-    <div>
-        <h1>Introduction </h1>
-    </div>
-    <div class="info">
-        <span class="date">
-            <span class="icon">
-                <a-icon type="calendar" theme="filled" />
-            </span>
-            2023/2/3
-        </span>
-
+<div class="categories-tags">
+    
+    <div class="all-s">
         
-        <span class="category">
-            <a href="/categories/Life">
+        
+        <span>
+            <a href="/categories/Life/" style='background:linear-gradient(120deg, #faed14 0%, #52c41a 100%)'>
                 <span class="icon">
-                    <a-icon type="book" theme="filled" />
-                </span>
+                    <a-icon type="book" theme="filled" /></span>
                 Life
             </a>
         </span>
         
-
-        
-
-        <span class="tags">
-            <span class="icon">
-                <a-icon type="tags" theme="filled" />
-            </span>
-            
-            <span class="tag">
-                
-                <a href="/tags/intro" style=color:#ff7d73>
-                    intro
-                </a>
-            </span>
-            
-        </span>
         
     </div>
+    <div id="archives">
+        
+        <a-timeline>
+            <a-timeline-item timestamp="2023/2/3" placement="top" color="#a5c2f5">
+                <a-card hoverable>
+                    <div class="item-time">2023/2/3</div>
+                    <a href="/2023/02/03/introduction/">
+                        <h3>Introduction</h3>
+                    </a>
+                    <div class="info">
+                        
+                        <span class="category">
+                            <a href="/categories/Life">
+                                <span class="icon">
+                                    <a-icon type="book" theme="filled" />
+                                </span>
+                                Life
+                            </a>
+                        </span>
+                        
 
-    <div class="content" v-pre>
-        <h1 id="我的个人博客网站"><a href="#我的个人博客网站" class="headerlink" title="我的个人博客网站"></a>我的个人博客网站</h1><h2 id="尝试过的方案"><a href="#尝试过的方案" class="headerlink" title="尝试过的方案"></a>尝试过的方案</h2><p>现在想搞一个自己的博客网站，尝试过几种方案</p>
-<h3 id="1，买一个云服务器"><a href="#1，买一个云服务器" class="headerlink" title="1，买一个云服务器"></a>1，买一个云服务器</h3><pre><code>这样做自由度高，但是成本太高，一个月就要几十块，毕竟本人才初三；并且域名要钱还要备案
-</code></pre>
-<h3 id="2，用家里的电脑搭建"><a href="#2，用家里的电脑搭建" class="headerlink" title="2，用家里的电脑搭建"></a>2，用家里的电脑搭建</h3><pre><code>普通家宽根本别想，运营商早就把你的80端口封了，更何况你的IPv4不是固定的，IPv6地址支持不好
-</code></pre>
-<p>最终决定了用Github Page搭建，虽然只有静态网页，但对于我来说也足够了。</p>
-<h2 id="这个网站用来发什么"><a href="#这个网站用来发什么" class="headerlink" title="这个网站用来发什么"></a>这个网站用来发什么</h2><p>这个网站，我会用来写一些我日常搞机操作，或者一些家庭小实验，总之，是我的第二个朋友圈，并且不怕被封号[手动滑稽]</p>
-<h2 id="更新问题"><a href="#更新问题" class="headerlink" title="更新问题"></a>更新问题</h2><p>至于更新频率，目前初三学习任务繁重，明天开学，六月份中考，可能这个学期都不会更新了，如果学习之余有点时间的话，尽量吧<br>中考以后，更新会快一点</p>
-<p>Tommy Chen<br>2023.2.3</p>
-
+                        
+                        <span class="tags">
+                            <span class="icon">
+                                <a-icon type="tags" />
+                            </span>
+                            
+                            <span class="tag">
+                                
+                                <a href="/tags/intro" style=color:#ffa2c4>
+                                    intro
+                                </a>
+                            </span>
+                            
+                        </span>
+                        
+                    </div>
+                </a-card>
+            </a-timeline-item>
+        </a-timeline>
+        
     </div>
-
-    
+    <script>
+        new Vue({
+            el: '#archives'
+        })
+    </script>
 </div>
                      
 <footer id="footer">
