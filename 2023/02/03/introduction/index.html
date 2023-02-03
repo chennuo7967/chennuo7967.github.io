@@ -183,7 +183,7 @@
             
             <span class="tag">
                 
-                <a href="/tags/intro" style=color:#00bcd4>
+                <a href="/tags/intro" style=color:#ff7d73>
                     intro
                 </a>
             </span>
@@ -205,6 +205,12 @@
 
     </div>
 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <div id="comment">
+        <div id="gitalk-container">
+        </div>
+    </div>
     
 </div>
                      
@@ -269,6 +275,21 @@
             }
         }
     })
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: 'fab0ea61b87cb0e8e1e7',
+        clientSecret: '8be9a35ef72b1480aefb8540a2ea441f10cf3045',
+        repo: 'CommentStore',      // The repository of store comments,
+        owner: 'chennuo7967',
+        admin: ['chennuo7967'],
+        language: 'zh-CN',
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: true  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
 </script>
 
 </body>
