@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tommy&#39;s Blog</title>
+  
+  <subtitle>Daily life</subtitle>
+  <link href="http://chennuo7967.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://chennuo7967.github.io/"/>
+  <updated>2023-02-05T06:33:35.025Z</updated>
+  <id>http://chennuo7967.github.io/</id>
+  
+  <author>
+    <name>Tommy Chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introduction</title>
+    <link href="http://chennuo7967.github.io/2023/02/03/introduction/"/>
+    <id>http://chennuo7967.github.io/2023/02/03/introduction/</id>
+    <published>2023-02-03T00:42:43.000Z</published>
+    <updated>2023-02-05T06:33:35.025Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="我的个人博客网站"><a href="#我的个人博客网站" class="headerlink" title="我的个人博客网站"></a>我的个人博客网站</h1><h2 id="尝试过的方案"><a href="#尝试过的方案" class="headerlink" title="尝试过的方案"></a>尝试过的方案</h2><p>现在想搞一个自己的博客网站，尝试过几种方案</p><h3 id="1，买一个云服务器"><a href="#1，买一个云服务器" class="headerlink" title="1，买一个云服务器"></a>1，买一个云服务器</h3><pre><code>这样做自由度高，但是成本太高，一个月就要几十块，毕竟本人才初三；并且域名要钱还要备案</code></pre><h3 id="2，用家里的电脑搭建"><a href="#2，用家里的电脑搭建" class="headerlink" title="2，用家里的电脑搭建"></a>2，用家里的电脑搭建</h3><pre><code>普通家宽根本别想，运营商早就把你的80端口封了，更何况你的IPv4不是固定的，IPv6地址支持不好</code></pre><p>最终决定了用Github Page搭建，虽然只有静态网页，但对于我来说也足够了。</p><h2 id="这个网站用来发什么"><a href="#这个网站用来发什么" class="headerlink" title="这个网站用来发什么"></a>这个网站用来发什么</h2><p>这个网站，我会用来写一些我日常搞机操作，或者一些家庭小实验，总之，是我的第二个朋友圈，并且不怕被封号[手动滑稽]</p><h2 id="更新问题"><a href="#更新问题" class="headerlink" title="更新问题"></a>更新问题</h2><p>至于更新频率，目前初三学习任务繁重，明天开学，六月份中考，可能这个学期都不会更新了，如果学习之余有点时间的话，尽量吧<br>中考以后，更新会快一点</p><p>Tommy Chen<br>2023.2.3</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Life" scheme="http://chennuo7967.github.io/categories/Life/"/>
+    
+    
+    <category term="intro" scheme="http://chennuo7967.github.io/tags/intro/"/>
+    
+  </entry>
+  
+</feed>
