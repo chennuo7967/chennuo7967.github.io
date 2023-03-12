@@ -6,7 +6,7 @@
   <link href="http://chennuo7967.github.io/atom.xml" rel="self"/>
   
   <link href="http://chennuo7967.github.io/"/>
-  <updated>2023-03-11T14:23:58.754Z</updated>
+  <updated>2023-03-12T00:41:26.079Z</updated>
   <id>http://chennuo7967.github.io/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>UbuntuKDE自制版</title>
+    <title>自制Ubuntu</title>
     <link href="http://chennuo7967.github.io/2023/03/11/UbuntuKDE%E8%87%AA%E5%88%B6%E7%89%88/"/>
     <id>http://chennuo7967.github.io/2023/03/11/UbuntuKDE%E8%87%AA%E5%88%B6%E7%89%88/</id>
     <published>2023-03-11T14:15:44.000Z</published>
-    <updated>2023-03-11T14:23:58.754Z</updated>
+    <updated>2023-03-12T00:41:26.079Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Ubuntu-KDE-自制版"><a href="#Ubuntu-KDE-自制版" class="headerlink" title="Ubuntu KDE 自制版"></a>Ubuntu KDE 自制版</h1><h1 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h1><h2 id="关于外观"><a href="#关于外观" class="headerlink" title="关于外观"></a>关于外观</h2><p>1，图标主题默认Papirus-Dark<br>2，Plasma样式默认Future-Dark<br>3，窗口装饰元素为WhiteSur-Dark<br>4，壁纸为默认深色模式壁纸<br>5，增加HarmonyOS_Sans字体<br>6，SDDM主题更改为sugar-candy</p><h2 id="关于应用"><a href="#关于应用" class="headerlink" title="关于应用"></a>关于应用</h2><p>1，将Ubuntu的Gnome更换为KDE，并添加相应PPA源<br>2，将LibreOffice更换为WPS<br>3，预置Clash，放在了/opt/clash下<br>4，预置VS Code<br>5，预置gcc，git，vim<br>6，将软件源更改为中科大源(如果没有请自行用桌面上的sources.list更换)<br>7，删除Snap以及附属组件<br>8，将Firefox更换为Google Chrome<br>9，预装VLC，删除Rhythmbox</p><h2 id="关于系统设置"><a href="#关于系统设置" class="headerlink" title="关于系统设置"></a>关于系统设置</h2><p>1，修改.bashrc，美化Bash提示符样式<br>2，加入一些常用命令的alias，具体见.bashrc<br>3，更换内核为Linux6.1.7(LTS)</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>这个修改版用cubic基于Ubuntu22.10制作，为了避免体积臃肿，这个版本没有中文输入法以及其他软件如微信、QQ、钉钉，如有需要请自行安装</p><h5 id="百度云下载链接"><a href="#百度云下载链接" class="headerlink" title="百度云下载链接"></a><a href="https://pan.baidu.com/s/13R8YSFWEc0rVJca0TqN4RQ?pwd=7967">百度云下载链接</a></h5><p>后天区一模，有时间会考虑出教程</p><p>2023.3.11</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Why修改？"><a href="#Why修改？" class="headerlink" title="Why修改？"></a>Why修改？</h1><p>首先，个人觉得Ubuntu默认的Gnome不好用，而且难看，所以换了KDE。具体可以参见我以前的<a href="https://chennuo7967.github.io/2023/02/05/KDE-or-Gnome-%E6%AF%94%E8%BE%83%E4%B8%A4%E8%80%85%E4%BC%98%E5%8A%A3/">文章</a></p><p>然后，每次安装Ubuntu都要重新装一堆东西，换源，设置，美化……实在麻烦</p><p>最后，我在市面上找不到一个对于我而言可以开箱即用的发行版，于是我决定</p><p><strong>自己动手，丰衣足食！</strong></p><hr><h1 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h1><h2 id="关于外观"><a href="#关于外观" class="headerlink" title="关于外观"></a>关于外观</h2><p>1，图标主题默认 <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/">Papirus Dark</a><br>2，Plasma样式默认 <a href="https://store.kde.org/p/1491485/">Future Dark</a><br>3，窗口装饰元素为 <a href="https://store.kde.org/p/1398840/">WhiteSur Dark</a><br>4，壁纸为默认深色模式壁纸<br>5，增加字体 <a href="https://communityfile-drcn.op.hicloud.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20221101115044.33201174322571893280998053929524:50531031060425:2800:6DA5B24196810B0861671524221560A081031A0859326AD524B15C316D0AB6F9.zip?needInitFileName=true">HarmonyOS Sans</a><br>6，SDDM主题更改为 <a href="https://store.kde.org/p/1312658">Sugar Candy</a></p><h2 id="关于应用"><a href="#关于应用" class="headerlink" title="关于应用"></a>关于应用</h2><p>1，将Ubuntu的Gnome更换为KDE，并添加相应PPA源<br>2，将LibreOffice更换为WPS<br>3，预置Clash，放在了/opt/clash下<br>4，预置VS Code<br>5，预置gcc，git，vim<br>6，将软件源更改为中科大源(如果没有请自行用桌面上的sources.list更换)<br>7，删除Snap以及附属组件<br>8，将Firefox更换为Google Chrome<br>9，预装VLC，删除Rhythmbox</p><h2 id="关于系统设置"><a href="#关于系统设置" class="headerlink" title="关于系统设置"></a>关于系统设置</h2><p>1，修改.bashrc，美化Bash提示符样式<br>2，加入一些常用命令的alias，具体见 ~/.bashrc<br>3，更换内核为Linux6.1.7(LTS)</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>这个修改版用Cubic基于Ubuntu22.10制作，为了避免体积臃肿，这个版本没有中文输入法以及其他软件如微信、QQ、钉钉，如有需要请自行安装</p><p><strong><a href="https://pan.baidu.com/s/13R8YSFWEc0rVJca0TqN4RQ?pwd=7967">百度云下载链接</a></strong></p><p>后天区一模，考完有时间会考虑出教程</p><p>2023.3.11</p>]]></content>
     
     
       
