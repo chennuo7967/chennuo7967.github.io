@@ -185,8 +185,8 @@ template {
 #aside-content .card-categories ul.card-category-list > .card-category-list-item a span,
 .site-data > a .headline,
 #nav #blog-info,
-#pagination .prev_info,
-#pagination .next_info,
+.prev_info,
+.next_info,
 #sidebar #sidebar-menus .menus_items .site-page {
   overflow: hidden;
   -o-text-overflow: ellipsis;
@@ -267,8 +267,8 @@ template {
   transform: scale(1.1);
 }
 .postImgHover:hover .cover,
-#pagination .prev-post:hover .cover,
-#pagination .next-post:hover .cover,
+.prev-post:hover .cover,
+.next-post:hover .cover,
 .relatedPosts > .relatedPosts-list > div:hover .cover {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -280,8 +280,8 @@ template {
   transform: scale(1.1);
 }
 .postImgHover .cover,
-#pagination .prev-post .cover,
-#pagination .next-post .cover,
+.prev-post .cover,
+.next-post .cover,
 .relatedPosts > .relatedPosts-list > div .cover {
   position: absolute;
   width: 100%;
@@ -3584,11 +3584,7 @@ h1.page-title + .tag-cloud-list {
   margin-top: 20px;
   text-align: center;
 }
-#pagination .page-number.current {
-  background: #00c4b6;
-  color: var(--white);
-}
-#pagination .pagination-info {
+.pagination-info {
   position: absolute;
   top: 50%;
   padding: 20px 40px;
@@ -3599,41 +3595,41 @@ h1.page-title + .tag-cloud-list {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
-#pagination .prev_info,
-#pagination .next_info {
+.prev_info,
+.next_info {
   color: var(--white);
   font-weight: 500;
 }
-#pagination .next-post .pagination-info {
+.next-post .pagination-info {
   text-align: right;
 }
-#pagination .pull-full {
+.pull-full {
   width: 100% !important;
 }
-#pagination .prev-post .label,
-#pagination .next-post .label {
+.prev-post .label,
+.next-post .label {
   color: var(--light-grey);
   text-transform: uppercase;
   font-size: 90%;
 }
-#pagination .prev-post,
-#pagination .next-post {
+.prev-post,
+.next-post {
   width: 50%;
 }
 @media screen and (max-width: 768px) {
-  #pagination .prev-post,
-  #pagination .next-post {
+  .prev-post,
+  .next-post {
     width: 100%;
   }
 }
-#pagination .prev-post a,
-#pagination .next-post a {
+.prev-post a,
+.next-post a {
   position: relative;
   display: block;
   overflow: hidden;
   height: 150px;
 }
-#pagination.pagination-post {
+.pagination-post {
   overflow: hidden;
   margin-top: 40px;
   width: 100%;
@@ -3649,15 +3645,6 @@ h1.page-title + .tag-cloud-list {
 .layout > .recent-posts .pagination > *:not(.space):hover {
   background: var(--btn-hover-color);
   color: var(--btn-color);
-}
-.layout > div:not(.recent-posts) .pagination .page-number {
-  display: inline-block;
-  margin: 0 4px;
-  min-width: 24px;
-  height: 24px;
-  text-align: center;
-  line-height: 24px;
-  cursor: pointer;
 }
 #article-container {
   word-wrap: break-word;
